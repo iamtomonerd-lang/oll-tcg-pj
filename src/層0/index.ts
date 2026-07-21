@@ -27,12 +27,7 @@
  * これらはすべて上位層（層1以降）で定義される。
  */
 
-export type { ゾーン } from './ゾーン';
-export type { カード, カード状態, カード数値情報, カード分類情報 } from './カード';
-export type { プレイヤー, プレイヤー状態, プレイヤー数値情報, プレイヤー分類情報 } from './プレイヤー';
-export type {
-  ゲームオブジェクト,
-  ゲームオブジェクト状態,
-  ゲームオブジェクト数値情報,
-  ゲームオブジェクト分類情報
-} from './ゲームオブジェクト';
+export type * from './ゾーン';
+export type * from './カード';
+export type * from './プレイヤー';
+export type * from './ゲームオブジェクト';
