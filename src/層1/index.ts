@@ -38,13 +38,13 @@
 export * from './共通処理';
 
 // ゾーン処理
-export * from './ゾーン処理';
+export * as ゾーン処理 from './ゾーン処理';
 
 // カード処理
-export * from './カード処理';
+export * as カード処理 from './カード処理';
 
 // プレイヤー処理
-export * from './プレイヤー処理';
+export * as プレイヤー処理 from './プレイヤー処理';
 
 // ゲームオブジェクト処理
-export * from './ゲームオブジェクト処理';
+export * as ゲームオブジェクト処理 from './ゲームオブジェクト処理';
