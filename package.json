@@ -1,0 +1,14 @@
+{
+  "name": "oll-tcg-engine",
+  "version": "0.1.0",
+  "description": "複数のTCGタイトルを実装できる汎用TCGゲームエンジン",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
