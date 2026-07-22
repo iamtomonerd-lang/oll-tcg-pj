@@ -15,3 +15,4 @@ export * as 条件管理 from './条件管理';
 export * as データ管理 from './データ管理';
 export * as プレイヤー管理 from './プレイヤー管理';
 export * as 勝利判定 from './勝利判定';
+export * as ゾーン管理 from './ゾーン管理';
