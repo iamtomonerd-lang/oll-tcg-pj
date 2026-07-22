@@ -10,15 +10,22 @@
  * 単一の数値を表す
  */
 export interface 数値 {
+  readonly 名前: string;
   readonly 現在値: number;
   readonly 最大値: number | null;
+  readonly 最小値: number | null;
 }
 
 /**
  * 数値を生成する
  */
-export function 数値を作成(現在値: number, 最大値: number | null = null): 数値 {
-  return { 現在値, 最大値 };
+export function 数値を作成(
+  名前: string,
+  現在値: number,
+  最大値: number | null = null,
+  最小値: number | null = null
+): 数値 {
+  return { 名前, 現在値, 最大値, 最小値 };
 }
 
 /**
@@ -29,6 +36,16 @@ export function は最大か(数値: 数値): boolean {
     return false;
   }
   return 数値.現在値 >= 数値.最大値;
+}
+
+/**
+ * 数値が最小値以下かを確認する
+ */
+export function は最小値以下か(数値: 数値): boolean {
+  if (数値.最小値 === null) {
+    return false;
+  }
+  return 数値.現在値 <= 数値.最小値;
 }
 
 /**
