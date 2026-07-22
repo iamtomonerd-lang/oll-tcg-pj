@@ -12,3 +12,4 @@
 
 export * as 数値管理 from './数値管理';
 export * as 条件管理 from './条件管理';
+export * as データ管理 from './データ管理';
