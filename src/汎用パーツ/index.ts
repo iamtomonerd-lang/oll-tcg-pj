@@ -19,3 +19,4 @@ export * as ゾーン管理 from './ゾーン管理';
 export * as カード管理 from './カード管理';
 export * as 対象管理 from './対象管理';
 export * as ランダム管理 from './ランダム管理';
+export * as ID管理 from './ID管理';
