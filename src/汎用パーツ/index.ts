@@ -14,3 +14,4 @@ export * as 数値管理 from './数値管理';
 export * as 条件管理 from './条件管理';
 export * as データ管理 from './データ管理';
 export * as プレイヤー管理 from './プレイヤー管理';
+export * as 勝利判定 from './勝利判定';
