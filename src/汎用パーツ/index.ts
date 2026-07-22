@@ -1,0 +1,22 @@
+/**
+ * 汎用パーツ
+ *
+ * 複数のTCGで再利用可能な汎用的なゲーム要素の集合。
+ *
+ * 設計思想：
+ * - ゲーム固有ルールは含まない
+ * - すべてのTCGで再利用可能
+ * - パーツ集がゲームルールを知らない
+ * - ゲーム側がパーツに意味を付ける
+ */
+
+export * as 数値管理 from './数値管理';
+export * as 条件管理 from './条件管理';
+export * as データ管理 from './データ管理';
+export * as プレイヤー管理 from './プレイヤー管理';
+export * as 勝利判定 from './勝利判定';
+export * as ゾーン管理 from './ゾーン管理';
+export * as カード管理 from './カード管理';
+export * as 対象管理 from './対象管理';
+export * as ランダム管理 from './ランダム管理';
+export * as ID管理 from './ID管理';
